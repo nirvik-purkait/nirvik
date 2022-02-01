@@ -8,7 +8,7 @@
 .title::before{
     content: "";
     display: block;
-    background-image: url("../images/1.png");
+    background-image: url("../images/favicon.ico");
     background-size: cover;
     position: absolute;
     top: 0px;
