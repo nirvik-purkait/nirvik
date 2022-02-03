@@ -84,10 +84,8 @@
 /* footer section */
 .footer_content{
     background-color: #f2f2f2;
-    padding: 2% 7% 10%;
+    padding: 2% 7% ;
 }
-
-
 .review_section{
     padding-right: 7%;
 }
@@ -134,21 +132,32 @@ input:focus, textarea:focus{
     border-radius: 15px;
     outline: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .social_links{
     padding-left: 7%;
+}
+.resume{
+    padding-bottom: 2rem;
+    line-height: 3.5;
+    text-align: center;
+}
+.download{
+    align-items: center;
+    margin: auto;
+}
+.resume button{
+    line-height: normal;
+    width: auto;
+    background-color: greenyellow;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 5px 10px #000;
+}
+.connect{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 .icons{
     text-align: center;
@@ -179,4 +188,9 @@ input:focus, textarea:focus{
 }
 .github_icon i:hover{
     color: #171515;
+}
+.copyright{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 0.8rem;
 }
