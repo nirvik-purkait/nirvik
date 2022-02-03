@@ -139,6 +139,9 @@ input:focus, textarea:focus{
     padding-bottom: 2rem;
     line-height: 3.5;
     text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
 }
 .download{
     align-items: center;
@@ -148,10 +151,11 @@ input:focus, textarea:focus{
     line-height: normal;
     width: auto;
     background-color: greenyellow;
+    font-size: 18px;
     padding: 0.8rem;
     border: none;
     border-radius: 50px;
-    box-shadow: 5px 10px #000;
+    box-shadow: 3px 5px 8px 2px rgb(0 0 0 / 50%);
 }
 .connect{
     text-align: center;
