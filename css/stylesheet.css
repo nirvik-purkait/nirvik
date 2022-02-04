@@ -24,7 +24,8 @@
     margin-left: auto;
 }
 .nav_item{
-    margin: 0 0 0 80px;
+    margin: 0 40px;
+    text-align: center;
 }
 .nav_link{
     color: #fff;
