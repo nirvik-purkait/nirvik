@@ -32,7 +32,9 @@
     
                                             <!-- IMPORTANT -->
             <!-- All custom CSS are written spaced with underscore "_" to identify from bootstrap CSS -->
-
+<!-- ________________________________________________________________________________________________________ -->
+    <!-- header section -->
+    <!-- contains navbar my name and shrot details -->
     <section id="header">
         <div class="title">
             <div class="title_content">
@@ -46,17 +48,17 @@
                           <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav navbar_nav">
                                 <li class="nav-item nav_item">
-                                    <a href="#" class="nav-link nav_link">
+                                    <a href="#header" class="nav-link nav_link">
                                         Home
                                     </a>
                                 </li>
                                 <li class="nav-item nav_item">
-                                    <a href="#" class="nav-link nav_link">
+                                    <a href="#content" class="nav-link nav_link">
                                         About me
                                     </a>
                                 </li>
                                 <li class="nav-item nav_item">
-                                    <a href="#" class="nav-link nav_link">
+                                    <a href="#footer" class="nav-link nav_link">
                                         Contact
                                     </a>
                                 </li>
@@ -82,8 +84,86 @@
             
         </div>
     </section>
-    
-    
+<!-- ________________________________________________________________________________________________________ -->
+<!-- content section -->
+<!-- contains education details, statement from others etc -->
+
+    <section id="content">
+        <!-- education details -->
+        <!-- <div class="container-fluid">
+            <div class="education_details">
+                <div class="diploma">
+                    <span class="institute_name">Jnan Chandra Ghosh Polytechnic</span>
+                    <span class="year">Year : 2018 to 2021</span>
+                </div>
+                <div class="graduation">
+                    <span class="institute_name">Fakir Chand College</span>
+                    <span class="year">Year : 2016 to 2018 ⋅ left</span>
+                </div>
+                <div class="higher_secondary">
+                    <span class="institute_name">Sarisha High School</span>
+                    <span class="year">Year : 2014 to 2016</span>
+                </div>
+                <div class="secondary">
+                    <span class="institute_name">Mathur Jatiram Memorial High School</span>
+                    <span class="year">Year : 2008 to 2014</span>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- others about me -->
+        <!-- it is a carousel -->
+        <div id="website_carousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+            <!-- data-bs-pause="false" to prevent pausing on hover effect -->
+            <div class="carousel-indicators">
+                <!-- puts dot or dash as indicator -->
+                <button type="button" data-bs-target="#website_carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#website_carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#website_carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <!--creats carousel following that creates carousel item -->
+                <div class="carousel-item item_1 active">
+                    <div>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, reprehenderit?
+                    </div>
+                    <img src="./images/Anirban Das PP.png" alt="">
+                    <div class="carousel_name">
+                        Anirban Das
+                    </div>
+                </div>
+                <div class="carousel-item item_2">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perferendis vitae deleniti obcaecati nobis est?
+                    </div>
+                    <img src="./images/Indrasi Das PP.png" alt="">
+                    <div class="carousel_name">
+                        Indrasi Das
+                    </div>
+                </div>
+                <div class="carousel-item item_3">
+                    <div>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod vero consequatur aut.
+                    </div>
+                    <img src="./images/Nayan Samanta PP.png" alt="">
+                    <div class="carousel_name">
+                        Nayan Samanta
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#website_carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#website_carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        
+    </section>
+
+<!-- ________________________________________________________________________________________________________ -->
+    <!-- footer section -->
+    <!-- contains review section social links etc -->
     <section id="footer">
         <div class="footer_content">
             <div class="row">
@@ -106,7 +186,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-md-6 social_links">
+                <div class="col-md-6 connection">
                     <div class="row resume">
                         <div class="col-md-6">
                             Loved the work? 
