@@ -1,3 +1,9 @@
+/* Here all css attribute and values are applicable for standard screen size
+and all the id and classes are targrted as per flow order in the main html
+file, if any changes needs to be done make it as per the flow order of html
+ file and keep the readability high */
+
+
 /* header section */
 #header{
     position: relative;
@@ -11,6 +17,7 @@
     background-image: url("https://nirvikpurkait.github.io/nirvik/images/1.jpg");
     background-size: cover;
     position: absolute;
+    background-position: top right;
     top: 0px;
     right: 0px;
     width: 100%;
@@ -65,7 +72,7 @@
 .web_developer{
     display: block;
     color: #fff;
-    text-align: right;
+    /* text-align: right; */
     font-size: 5rem;
     font-family: 'Shadows Into Light', cursive;
 }
@@ -106,12 +113,15 @@
     background-color: #59A5D8;
     padding: 2% 7% ;
     width: 100%;
-    height: 30rem;
+    height: auto;
+}
+.carousel_indicators{
+    margin: 0;
 }
 .item_1, .item_2, .item_3{
     color: #fff;
     text-align: center;
-    font-size: 3.25rem;
+    font-size: 2.25rem;
     padding: 0 3.5rem;
 }
 .item_1 img, .item_2 img, .item_3 img{
