@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    font-family: 'Zilla Slab', serif;
+    font-family: 'Bree Serif', serif;
+    /* font-family: 'BIZ UDMincho', serif; */
+}
+    /* Section header */
+#header{
+    padding: 0 5% 5%;
+    background-image: url('../images/1.png'), url('../images/2.png');
+    background-position: bottom left, center right;
+    background-size: 100%, 100%;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+/* starting of navigation */
+.navigationbar{
+    padding: 0 0 42px 0;
+}
+.navbar-nav{
+    margin: 0 0 0 auto;
+}
+.nav-item{
+    padding: 10px 0 10px 60px;
+    position: relative;
+    font-size: 20px;
+}
+.nav-item > button{
+    border: none;
+    background: none;
+}
+.nav-link > img{
+    width: auto; 
+    height: 8px; 
+    opacity: 0.5;
+    transition: transform 0.5s;
+    transform: rotate(180deg);
+}
+.nav-item:hover img{
+    transition: transform 0.5s;
+    transform: rotate(0deg);
+}
+.nav-item:hover .dropdown1{
+    display: block;
+    z-index: 9;
+}
+.dropdown1{
+    position: absolute;
+    width: max-content;
+    padding: 0 15px 0 8px;
+    top: 55px;
+    right: auto;
+    display: none;
+}
+.dropdown1 > ul{
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+}
+.dropdown1 > ul > li > a{
+    text-decoration: none;
+}
+/* end of navigation, starting of heading */
+.heading{
+    font-size: 32px;
+}
+.heading > .row > .col-lg-12{
+    padding: 0 0 62px;
+}
+.heading > .row > .name{
+    font-size: 72px;
+    font-family: 'Press Start 2P', cursive;
+}
+/* end of heading , starting of buttons */
+.buttons > div{
+    padding: 0 50px 16px 0;
+    display: inline-block;
+    width: auto;
+}
+.buttons > div > button{
+    padding: 12px 54px;
+    font-size: 24px;
+    border-radius: 64px;
+    border: none;
+    box-shadow: 20px 20px 50px grey;
+}
+.buttons > .cv > button{
+    background-image: linear-gradient(to right, #00b4db, #0083b0);
+}
+.buttons > .contact > button{
+    /* background-color: #83BD75; */
+    background-color: #56BBF1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .heading > span{
+    font-size: 72px;
+    font-family: 'Press Start 2P', cursive;
+}
+.fname{
+    padding: 0 0 0 10px;
+    color: rgb(51 51 204);
+}
+.lname{
+    padding: 0 0 0 10px;
+    color: #f6f6f6;
+}
+.col-lg-6{
+    position: relative;
+}
+.open_as{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+end of heading , starting of buttons
+.buttons{
+    padding: 100px 0;
+}
+.buttons > .cv{
+    display: inline;
+    padding: 0 40px 0 0;
+}
+.buttons > .cv > button{
+    background-image: linear-gradient(to right, #35d6dc , #1cff00);
+}
+.buttons > .contact{
+    display: inline;
+}
+.buttons > div > button{
+    box-shadow: 20px 20px 50px grey;
+    background-color: #56BBF1;
+    border: none;
+    border-radius: 40px;
+    margin: 0 40px 0 0;
+    padding: 12px 42px;
+    font-size: 22px;
+}
+.buttons > div > button:hover{
+    
+}
+     */
