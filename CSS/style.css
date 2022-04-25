@@ -4,28 +4,34 @@ body{
     background-color: #f6f6f6;
     font-family: 'Zilla Slab', serif;
     font-family: 'Bree Serif', serif;
-    /* font-family: 'BIZ UDMincho', serif; */
 }
-    /* Section header */
+
+
+
+
+/* __________________________________________________________________________________________________ */
+/* Section header */
 #header{
     padding: 0 5% 5%;
     background-image: url('../images/1.png'), url('../images/2.png');
     background-position: bottom left, center right;
     background-size: 100%, 100%;
-    /* background-size: cover; */
+    background-size: cover;
     background-repeat: no-repeat;
 }
+
 /* starting of navigation */
+
 .navigationbar{
-    padding: 0 0 42px 0;
+    padding: 0 0 2.625rem 0;
 }
 .navbar-nav{
     margin: 0 0 0 auto;
 }
 .nav-item{
-    padding: 10px 0 10px 60px;
+    padding: 0.625rem 0 0.625rem 3.75rem;
     position: relative;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .nav-item > button{
     border: none;
@@ -33,7 +39,7 @@ body{
 }
 .nav-link > img{
     width: auto; 
-    height: 8px; 
+    height: 0.5rem; 
     opacity: 0.5;
     transition: transform 0.5s;
     transform: rotate(180deg);
@@ -49,8 +55,8 @@ body{
 .dropdown1{
     position: absolute;
     width: max-content;
-    padding: 0 15px 0 8px;
-    top: 55px;
+    padding: 0 1rem 0 0.5rem;
+    top: 3.5rem;
     right: auto;
     display: none;
 }
@@ -62,35 +68,38 @@ body{
 .dropdown1 > ul > li > a{
     text-decoration: none;
 }
+
 /* end of navigation, starting of heading */
+
 .heading{
-    font-size: 32px;
+    font-size: 2rem;
 }
 .heading > .row > .col-lg-12{
-    padding: 0 0 62px;
+    padding: 0 0 3.875rem;
 }
 .heading > .row > .name{
-    font-size: 72px;
+    font-size: 4.5rem;
     font-family: 'Press Start 2P', cursive;
 }
+
 /* end of heading , starting of buttons */
+
 .buttons > div{
-    padding: 0 50px 16px 0;
+    padding: 0 3.125rem 1rem 0;
     display: inline-block;
     width: auto;
 }
 .buttons > div > button{
-    padding: 12px 54px;
-    font-size: 24px;
-    border-radius: 64px;
+    padding: 0.75rem 3.375rem;
+    font-size: 1.5rem;
+    border-radius: 4rem;
     border: none;
-    box-shadow: 20px 20px 50px grey;
+    box-shadow: 1.25rem 1.25rem 3.125rem grey;
 }
 .buttons > .cv > button{
     background-image: linear-gradient(to right, #00b4db, #0083b0);
 }
 .buttons > .contact > button{
-    /* background-color: #83BD75; */
     background-color: #56BBF1;
 }
 
@@ -99,60 +108,253 @@ body{
 
 
 
+/* ______________________________________________________________________________________________ */
+/* Section projects */
 
 
 
 
 
 
+/* ______________________________________________________________________________________________ */
+/* Section galary */
 
 
 
 
-/* .heading > span{
-    font-size: 72px;
-    font-family: 'Press Start 2P', cursive;
+
+/* ______________________________________________________________________________________________ */
+/* Section about me */
+
+/* starting of skills */
+
+.skills{
+    padding: 2% 5%;
+    text-align: center;
 }
-.fname{
-    padding: 0 0 0 10px;
-    color: rgb(51 51 204);
+.skills > .col-lg-12{
+    background-image: linear-gradient(to right, #f6f6f6 , #999999, #f6f6f6);
+    margin: 0 0 4rem;
+    line-height: 1;
+    font-size: 2.5rem;
 }
-.lname{
-    padding: 0 0 0 10px;
-    color: #f6f6f6;
+.skills > .row > .row > div{
+    text-align: center;
+    font-size: 1.375rem;
+    padding: 0 0 40px;
 }
-.col-lg-6{
-    position: relative;
+.skills > .row > .row > div > progress{
+    height: 25px;
+    width: 100%;
 }
-.open_as{
-    position: absolute;
-    bottom: 0;
-    right: 0;
+
+
+/* end of skills and starting of certification */
+
+.certification{
+    padding: 2% 5%;
+    text-align: center;
 }
-end of heading , starting of buttons
-.buttons{
-    padding: 100px 0;
+.certification > .col-lg-12{
+    background-image: linear-gradient(to right, #f6f6f6 , #999999, #f6f6f6);
+    line-height: 1;
+    font-size: 2.5rem;
+    margin: 0 0 2rem;
 }
-.buttons > .cv{
-    display: inline;
-    padding: 0 40px 0 0;
+.certification > .cetficates{
+    font-size: 1.5rem;
+    background-color: transparent;
 }
-.buttons > .cv > button{
-    background-image: linear-gradient(to right, #35d6dc , #1cff00);
+
+/* end of certification and starting of road map */
+
+/* end of road map and starting of educational details */
+.education{
+    padding: 2% 5%;
+    font-size: 1.5rem;
+    text-align: center;
 }
-.buttons > .contact{
-    display: inline;
+.education > .col-lg-12{
+    background-image: linear-gradient(to right, #f6f6f6 , #999999, #f6f6f6);
+    line-height: 1;
+    font-size: 2.5rem;
+    margin: 0 0 2rem;
 }
-.buttons > div > button{
-    box-shadow: 20px 20px 50px grey;
-    background-color: #56BBF1;
+.education > table{
+    width: 100%;
+}
+.education tr th{
+    background-color: #d9d9d9;
+}
+.education tr:hover{
+    background-color: #d9d9d9;
+}
+table, tr, th, td{
+    border: 2px #bfbfbf solid;
+    border-collapse: collapse;
+}
+
+/* end of educational details starting of others opinion */
+
+#website_carousel{
+    background-color: #59A5D8;
+    padding: 2% 5%;
+    width: 100%;
+    height: auto;
+}
+.carousel_indicators{
+    margin: 0;
+}
+.item_1, .item_2, .item_3{
+    color: #fff;
+    text-align: center;
+    font-size: 2.25rem;
+    padding: 0 3.5rem;
+}
+.item_1 img, .item_2 img, .item_3 img{
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 100%;
+    align-items: center;
+    margin: 2rem auto 0.2rem;
+    display: block;
+}
+.carousel_name{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+/*_______________________________________________________________________________________________ */
+/* Section contact */
+.footer_content{
+    background-color: #f2f2f2;
+    padding: 2% 5% ;
+}
+
+/* starting of review section */
+
+.review_section{
+    padding-right: 7%;
+}
+.for_name , .for_email, .for_message, .for_submit{
+    margin-bottom: 5%;
+}
+.for_name input, .for_email input, .for_message textarea{
+    border: 0.125rem solid  #bfbfbf;
+    border-radius: 0.9375rem;
+    padding: 1%;
+}
+.for_submit input{
     border: none;
-    border-radius: 40px;
-    margin: 0 40px 0 0;
-    padding: 12px 42px;
-    font-size: 22px;
+    background-color: #32FF6A;
+    border-radius: 3.75rem;
+    font-size: 1.375rem;
+    padding: 2% 8%;
+    display: block;
+    margin-left: auto;
 }
-.buttons > div > button:hover{
-    
+.for_submit input:hover{
+    border: none;
+    background-image: linear-gradient(#32FF6A, #23b24a);
+    border-radius: 3.75rem;
+    font-size: 1.375rem;
+    padding: 2% 8%;
+    display: block;
+    margin-left: auto;
 }
-     */
+.for_submit input:active{
+    border: none;
+    background-image: linear-gradient(#23b24a, #32FF6A);
+    border-radius: 3.75rem;
+    font-size: 1.375rem;
+    padding: 2% 8%;
+    display: block;
+    margin-left: auto;
+}
+::placeholder{
+    color: #bfbfbf;
+}
+input:focus, textarea:focus{
+    border: 0.125rem solid #999999;
+    border-radius: 1rem;
+    outline: none;
+}
+
+/* end of review section starting of connection section */
+
+.connection{
+    padding-left: 7%;
+}
+.resume{
+    padding-bottom: 2rem;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.375rem;
+    font-weight: 600;
+}
+.download_button{
+    align-items: center;
+    margin: auto;
+}
+.resume button{
+    line-height: normal;
+    width: auto;
+    background-image: linear-gradient(to right, #00b4db, #0083b0);
+    font-size: 1.125rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 3.125rem;
+    box-shadow: 3px 5px 8px 2px rgb(0 0 0 / 50%);
+}
+.connect{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* inside connection section, connection icon section */
+
+.icons{
+    text-align: center;
+}
+.icons i{
+    color: gray;
+    font-size: 2.25rem;
+    transition: 500ms;
+}
+.icons i:hover{
+    font-size: 3rem;
+    transition: 500ms;
+}
+.facebook_icon i:hover{
+    color: #4267B2;
+}
+.twitter_icon i:hover{
+    color: #00acee;
+}
+.instagram_icon i:hover{
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3rem;
+}
+.linkedin_icon i:hover{
+    color: #0077b5;
+}
+.github_icon i:hover{
+    color: #171515;
+}
+/* ___________________________________________________________________________________________________ */
+/* Section copyright */
+.copyright{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 0.8rem;
+}
+/* End of copyright section */
