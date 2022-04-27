@@ -4,24 +4,24 @@ body{
     background-color: #f6f6f6;
     font-family: 'Zilla Slab', serif;
     font-family: 'Bree Serif', serif;
+    overflow-x: hidden;
 }
 
 
 
-
-/* __________________________________________________________________________________________________ */
-/* Section header */
+/* ________________________________________________________________________________________________ */
+                                        /* Section home */
 #header{
     padding: 0 5% 5%;
-    background-image: url('../images/1.png'), url('../images/2.png');
-    background-position: bottom left, center right;
+    background-color: #b2afe1;
+    background-image:  url('../images/1.png'), url(../images/2.png), linear-gradient(45deg, #1707eb, transparent);
+    background-position: center right;
     background-size: 100%, 100%;
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
+    color: #fff;
 }
-
-/* starting of navigation */
-
+                                        /* starting of navbar */
 .navigationbar{
     padding: 0 0 2.625rem 0;
 }
@@ -68,9 +68,7 @@ body{
 .dropdown1 > ul > li > a{
     text-decoration: none;
 }
-
-/* end of navigation, starting of heading */
-
+                                        /* stating of heading */
 .heading{
     font-size: 2rem;
 }
@@ -80,10 +78,9 @@ body{
 .heading > .row > .name{
     font-size: 4.5rem;
     font-family: 'Press Start 2P', cursive;
+    max-width: fit-content;
 }
-
-/* end of heading , starting of buttons */
-
+                                        /* starting of buttons */
 .buttons > div{
     padding: 0 3.125rem 1rem 0;
     display: inline-block;
@@ -98,36 +95,16 @@ body{
 }
 .buttons > .cv > button{
     background-image: linear-gradient(to right, #00b4db, #0083b0);
+    color: #ffffff;
 }
 .buttons > .contact > button{
     background-color: #56BBF1;
+    color: #ffffff;
 }
+/* _______________________________________________________________________________________________________ */
+                                        /* Section about me */
 
-
-
-
-
-
-/* ______________________________________________________________________________________________ */
-/* Section projects */
-
-
-
-
-
-
-/* ______________________________________________________________________________________________ */
-/* Section galary */
-
-
-
-
-
-/* ______________________________________________________________________________________________ */
-/* Section about me */
-
-/* starting of skills */
-
+                                        /* starting of skills */
 .skills{
     padding: 2% 5%;
     text-align: center;
@@ -147,10 +124,7 @@ body{
     height: 25px;
     width: 100%;
 }
-
-
-/* end of skills and starting of certification */
-
+                                        /* starting of certification */
 .certification{
     padding: 2% 5%;
     text-align: center;
@@ -165,37 +139,38 @@ body{
     font-size: 1.5rem;
     background-color: transparent;
 }
+                                        /* starting of road map */
 
-/* end of certification and starting of road map */
 
-/* end of road map and starting of educational details */
+
+                                        /* starting of educational details */
 .education{
     padding: 2% 5%;
     font-size: 1.5rem;
     text-align: center;
 }
-.education > .col-lg-12{
+.education > .education_heading{
     background-image: linear-gradient(to right, #f6f6f6 , #999999, #f6f6f6);
     line-height: 1;
     font-size: 2.5rem;
     margin: 0 0 2rem;
 }
-.education > table{
+.education > .table > table{
     width: 100%;
 }
-.education tr th{
-    background-color: #d9d9d9;
+.education > .table > table{
+    border-bottom: 2px solid;
 }
-.education tr:hover{
-    background-color: #d9d9d9;
+.education > .table > table > thead{
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    font-size: 1.875rem;
 }
-table, tr, th, td{
-    border: 2px #bfbfbf solid;
-    border-collapse: collapse;
+.education > .table > table > thead > tr > th , .education > table > tbody > tr > td{
+    padding: 0 20px;
+    border-bottom: 2px solid;
 }
-
-/* end of educational details starting of others opinion */
-
+                                        /* starting of others opinion */
 #website_carousel{
     background-color: #59A5D8;
     padding: 2% 5%;
@@ -224,19 +199,13 @@ table, tr, th, td{
 }
 
 
-
-
-
-
-/*_______________________________________________________________________________________________ */
-/* Section contact */
+/* _______________________________________________________________________________________________________ */
+                                            /* Section contact */
 .footer_content{
     background-color: #f2f2f2;
     padding: 2% 5% ;
 }
-
-/* starting of review section */
-
+                                            /* starting of review section */
 .review_section{
     padding-right: 7%;
 }
@@ -283,9 +252,7 @@ input:focus, textarea:focus{
     border-radius: 1rem;
     outline: none;
 }
-
-/* end of review section starting of connection section */
-
+                                        /* starting of connection section */
 .connection{
     padding-left: 7%;
 }
@@ -304,6 +271,7 @@ input:focus, textarea:focus{
     line-height: normal;
     width: auto;
     background-image: linear-gradient(to right, #00b4db, #0083b0);
+    color: #ffffff;
     font-size: 1.125rem;
     padding: 0.8rem;
     border: none;
@@ -316,9 +284,7 @@ input:focus, textarea:focus{
     font-size: 1.4rem;
     font-family: 'Times New Roman', Times, serif;
 }
-
-/* inside connection section, connection icon section */
-
+                                    /* inside connection section, connection icon section */
 .icons{
     text-align: center;
 }
@@ -351,10 +317,13 @@ input:focus, textarea:focus{
     color: #171515;
 }
 /* ___________________________________________________________________________________________________ */
-/* Section copyright */
+                                                /* Section copyright */
 .copyright{
     text-align: center;
     padding-top: 2rem;
     font-size: 0.8rem;
 }
-/* End of copyright section */
+
+
+
+

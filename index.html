@@ -39,13 +39,12 @@
 
 </head>
 <body>
-                                        <!-- IMPORTANT -->
-    <!-- here all custom classes used cammelCase or "_" as space to differentiate from bootstrp classes -->
 
+<!-- ____________________________________________________________________________________________________ -->
+                                        <!-- Section Home -->
     <section id="header">
 
-        <!-- starting of navigationbar -->
-
+                                        <!-- starting of navbar -->
         <div class="navigationbar">
 
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -64,10 +63,9 @@
                         <li class="nav-item">
                             <a href="#project" class="nav-link">Projects</a>
                         </li>
-                        <li class="nav-item">                
+                        <li class="nav-item">
                             <a href="#galary" class="nav-link">Gallery  <img src="./Images/angle-up-solid.png" alt="">
                             </a>
-
                             <div class="dropdown1">
                                 <ul>
                                     <li><a href="#">My collection</a></li>
@@ -75,7 +73,6 @@
                                     <li><a href="#">Want to visit</a></li>
                                 </ul>
                             </div>
-                            
                         </li>
                         <li class="nav-item">
                             <a href="#about_me" class="nav-link">About me  <img src="./Images/angle-up-solid.png" alt="" >
@@ -100,24 +97,22 @@
 
         </div>
 
-        <!-- end of navigationbar and stating of heading -->
-
+                                        <!-- starting of heading -->
         <div class="heading">
             <div class="row">
                 <div class="col-lg-12">
                     Hello there,
                 </div>
-                <div class="col-lg-12 name">
+                <span class="col-lg-12 name">
                     I'm NIRVIK PURKAIT
-                </div>
+                </span>
                 <div class="col-lg-12">
                     Open as Front End Web Developer
                 </div>
             </div>
         </div>
 
-        <!-- end of heading and starting of buttons -->
-        
+                                        <!-- starting of buttons -->
         <div class="buttons">
             <div class="cv">
                 <button>Download Resume</button>
@@ -127,21 +122,18 @@
             </div>
         </div>
 
-    </section>
-<!-- ____________________________________________________________________________________________________ -->
-    <section id="project">
 
     </section>
 <!-- ____________________________________________________________________________________________________ -->
-    <section id="galary">
 
-    </section>
+
+
+
 <!-- ____________________________________________________________________________________________________ -->
-<!-- Section about me -->
+                                        <!-- Section About me -->
     <section id="about_me">
 
-        <!-- starting of skills -->
-        
+                                        <!-- starting of skills -->
         <div id="skills" class="skills">
 
             <div class="col-lg-12">Skills</div>
@@ -150,33 +142,32 @@
                 <div class="col-lg-6 row">
                     <div class="col-lg-6 col-md-6 col-sm-12">HTML</div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <progress value="62" max="100"></progress>
+                        <progress value="46.7" max="100">46.7</progress>
                     </div>
                 </div>
                 <div class="col-lg-6 row">
                     <div class="col-lg-6 col-md-6 col-sm-12">CSS</div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <progress value="62" max="100"></progress>
+                        <progress value="45" max="100">45</progress>
                     </div>
                 </div>
                 <div class="col-lg-6 row">
                     <div class="col-lg-6 col-md-6 col-sm-12">JS</div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <progress value="62" max="100"></progress>
+                        <progress value="12" max="100">12</progress>
                     </div>
                 </div>
                 <div class="col-lg-6 row">
                     <div class="col-lg-6 col-md-6 col-sm-12">Bootstarap</div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <progress value="62" max="100"></progress>
+                        <progress value="38" max="100">38</progress>
                     </div>
                 </div>
             </div>
 
         </div>
 
-        <!-- end of skills and starting of certification -->
-
+                                            <!--starting of certification -->
         <div id="certification" class="certification">
             <div class="col-lg-12">
                 Certfication
@@ -186,59 +177,70 @@
             </div>
         </div>
 
-        <!-- end of certification and starting of road map -->
+                                            <!-- starting of road map -->
 
-        <!-- end of road map and starting of educational details -->
+                                            <!-- starting of educational details -->
 
         <div id="education" class="education">
 
-            <div class="col-lg-12">Educational Details</div>
+            <div class="col-lg-12 education_heading">Educational Details</div>
+            <div class="col-lg-12 table" style="overflow-x:auto;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Degree/Diploma</th>
+                            <th scope="col">Institute/University</th>
+                            <th scope="col">Year of passing</th>
+                            <th scope="col">Percentage/GPA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Degree/Diploma">Diploma in Electronics and Telecommunication Engineering</td>
+                            <td data-label="Institute/University">W. B. S. C. T. E</td>
+                            <td data-label="Year of passing">2021</td>
+                            <td data-label="Percentage/GPA">8.5</td>
+                        </tr>
+                        <tr>
+                            <td scope="row" data-label="Degree/Diploma">Higher Secondary Examination</td>
+                            <td data-label="Institute/University">W. B. C. H. S. E</td>
+                            <td data-label="Year of passing">2016</td>
+                            <td data-label="Percentage/GPA">65.8%</td>
+                        </tr>
+                        <tr>
+                            <td scope="row" data-label="Degree/Diploma">Secondary Examination</td>
+                            <td data-label="Institute/University">W. B. B. S. E</td>
+                            <td data-label="Year of passing">2014</td>
+                            <td data-label="Percentage/GPA">71%</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
 
-            <table>
-                <tr>
-                    <th>Degree/Diploma</th>
-                    <th>Institute/University</th>
-                    <th>Year of passing</th>
-                    <th>Percentage/GPA</th>
-                </tr>
-                <tr>
-                    <td style="text-align: left;">Diploma in Electronics and Telecommunication</td>
-                    <td>W. B. S. C. T. E</td>
-                    <td>2021</td>
-                    <td>8.5</td>
-                </tr>
-                <tr>
-                    <td style="text-align: left;">Higher Secondary Examination</td>
-                    <td>W. B. C. H. S. E</td>
-                    <td>2016</td>
-                    <td>65.8%</td>
-                </tr>
-                <tr>
-                    <td style="text-align: left;">Secondary Examination</td>
-                    <td>W. B. B. S. E</td>
-                    <td>2014</td>
-                    <td>71%</td>
-                </tr>
-            </table>
+            
         </div>
 
-        <!-- end of educational details starting of others opinion -->
-
+                                            <!-- starting of others opinion -->
         <div id="others_opinion">
+
             <!-- it is a carousel -->
             <div id="website_carousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+
                 <!-- data-bs-pause="false" to prevent pausing on hover effect -->
                 <div class="carousel-indicators carousel_indicators">
+
                     <!-- puts dot or dash as indicator -->
                     <button type="button" data-bs-target="#website_carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#website_carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#website_carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
                 </div>
+
                 <div class="carousel-inner">
                     <!--creats carousel following that creates carousel item -->
                     <div class="carousel-item item_1 active">
                         <div>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, reprehenderit?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, necessitatibus.
                         </div>
                         <img src="./images/Anirban Das PP.png" alt="">
                         <div class="carousel_name">
@@ -264,26 +266,30 @@
                         </div>
                     </div>
                 </div>
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#website_carousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </button>
+
                 <button class="carousel-control-next" type="button" data-bs-target="#website_carousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon"></span>
                 </button>
-              </div>
+
+            </div>
             
         </div>
-    
+
     </section>
+
 <!-- ____________________________________________________________________________________________________ -->
-    <!-- footer section -->
-    <!-- contains review section social links etc -->
+                                        <!-- Section contact -->
     <section id="footer">
+
+
         <div class="footer_content">
             <div class="row">
 
-                <!-- starting of review section -->
-
+                                        <!-- starting of review section -->
                 <div class="col-md-6 review_section">
                     <form action="">
                         <div class="for_name row">
@@ -304,8 +310,7 @@
                     </form>
                 </div>
 
-                <!-- end of review section starting of connection section -->
-
+                                        <!-- end of review section starting of connection section -->
                 <div class="col-md-6 connection">
                     <div class="row resume">
                         <div class="col-md-6">
@@ -328,8 +333,7 @@
                         Connect with me
                     </div>
                     
-                    <!-- inside connection section, connection icon section -->
-
+                                            <!-- inside connection section, connection icon section -->
                     <div class="row">
 
                         <div class="col icons facebook_icon">
@@ -370,9 +374,7 @@
 
         </div>
     </section>
-
-
-    
+                                    
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
